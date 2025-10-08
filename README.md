@@ -37,10 +37,11 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
    tailwindcss.exe
    ```
 
-   Mueve el binario a tu carpeta de Cargo para que sea accesible desde cualquier terminal:
+Mueve el binario a tu carpeta de Cargo para que sea accesible desde cualquier terminal:
 
 C:\Users\<tu_usuario>\.cargo\bin\
 
+Tambien el binario debe de estar en la raiz del proyecto para poder generar el archivo css
 Generar el archivo CSS
 
 ./tailwindcss -i ./input.css -o ./style/output.css
